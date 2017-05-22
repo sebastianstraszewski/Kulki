@@ -13,9 +13,6 @@ Następnie rozpoczyna się rozgrywka:
   
 Ilość zdobytych punktów równa jest ilości ruchów wykonanych przez gracza (liczba przestawionych przez niego kul).
 
-> #### Uwaga
-> Kule można przestwiać na dowolne puste pole.
-
 <br></br>
 ### INTERFEJS
 - Pojedyncze pole planszy ma wielkość 40×40 pikseli,
@@ -37,6 +34,11 @@ Przebieg rozgrywki można przedstawić następująco:
   * losujemy trzy nowe kule (jeśli na planszy zostało mniej miejsc wolnych to losujemy mniej kul),
   * jeśli kule o tym samym kolorze tworzą linię składającą się z 5 kul to usuwamy je,
 - uaktualniamy listę rankingową
+
+<br></br>
+
+> #### Uwaga
+> Kule można przestwiać na dowolne puste pole.
 
 > #### Uwaga
 > Program musi używać przygotowanych obrazków kul (kulka1, kulka2, kulka3, kulka4, kulka5) i wczytuje je z katalogu w którym znajduje się plik programu (tzn. katalogu bieżącego).
